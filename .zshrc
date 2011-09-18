@@ -1,14 +1,15 @@
-#Pull in everything defined in .profile
+# Pull in everything defined in .profile
 source ~/.profile
+# retain emacs keybindings
 export EDITOR=/usr/bin/emacs
-#Set
+#
 autoload -Uz compinit
 compinit
-#Just type directory name to cd, no need to put name
+# Just type directory name to cd, no need to put name
 setopt autocd
-#spelling correction
+# spellcheck
 setopt correct
-#Set up history
+# history preferences
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh/history
@@ -24,5 +25,5 @@ setopt hist_no_functions
 setopt no_hist_beep
 setopt hist_save_no_dups
 
-#Set up prompt
+# format terminal prompt
 export PS1="%m:%2c%% "
