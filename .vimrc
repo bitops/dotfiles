@@ -1,1 +1,3 @@
-/Users/sebastian/.vimrc
+:syntax on
+:set number
+:set ts=2
