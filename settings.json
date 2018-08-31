@@ -1,0 +1,12 @@
+{
+  // My VSCode Settings
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Monaco, monospace",
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "none",
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "off"
+}
+
