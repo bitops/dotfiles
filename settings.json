@@ -7,6 +7,8 @@
   "editor.tabSize": 2,
   "editor.renderWhitespace": "none",
   "editor.insertSpaces": true,
-  "editor.wordWrap": "off"
+  "editor.wordWrap": "off",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.enabled": false
 }
 
