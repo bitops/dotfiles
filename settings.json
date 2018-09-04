@@ -1,14 +1,18 @@
 {
   // My VSCode Settings
+  "git.ignoreMissingGitWarning": true,
   "editor.fontSize": 16,
   "editor.fontFamily": "Monaco, monospace",
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   "git.confirmSync": false,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "none",
   "editor.insertSpaces": true,
   "editor.wordWrap": "off",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.minimap.enabled": false
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": false,
+  "editor.renderIndentGuides": false
 }
 
