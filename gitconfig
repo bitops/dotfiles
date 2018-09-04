@@ -9,3 +9,6 @@
     diff = auto
     interactive = auto
     status = auto
+[user]
+	name = Sebastian Wittenkamp
+	email = sebastian@bitops.io
