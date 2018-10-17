@@ -1,8 +1,8 @@
 {
   // My VSCode Settings
   "git.ignoreMissingGitWarning": true,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Monaco, monospace",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Monaco",
   "files.autoSave": "onFocusChange",
   "git.confirmSync": false,
   "editor.tabSize": 2,
