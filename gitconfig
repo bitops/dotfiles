@@ -1,6 +1,8 @@
 [core]
     editor = code --wait
 [alias]
+    ci = commit
+    co = checkout
     st = status
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
