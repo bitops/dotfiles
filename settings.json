@@ -13,6 +13,8 @@
   "workbench.editor.enablePreview": false,
   "editor.minimap.enabled": false,
   "editor.detectIndentation": false,
-  "editor.renderIndentGuides": false
+  "editor.renderIndentGuides": false,
+  "explorer.confirmDelete": false,
+  "git.inputValidationSubjectLength": 72
 }
 
