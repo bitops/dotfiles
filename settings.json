@@ -1,7 +1,7 @@
 {
   // My VSCode Settings
   "git.ignoreMissingGitWarning": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.fontFamily": "Monaco",
   "files.autoSave": "onFocusChange",
   "git.confirmSync": false,
@@ -15,6 +15,9 @@
   "editor.detectIndentation": false,
   "editor.renderIndentGuides": false,
   "explorer.confirmDelete": false,
-  "git.inputValidationSubjectLength": 72
+  "git.inputValidationSubjectLength": 72,
+  "workbench.colorTheme": "Monokai",
+  "window.zoomLevel": 1,
+  "files.insertFinalNewline": true
 }
 
