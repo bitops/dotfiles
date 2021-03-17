@@ -2,8 +2,10 @@
     editor = code --wait
 [alias]
     ci = commit
+    br = branch 
     co = checkout
     st = status
+    ix = diff --cached
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 [color]
@@ -14,3 +16,8 @@
 [user]
 	name = Sebastian Wittenkamp
 	email = sebastian@bitops.io
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
